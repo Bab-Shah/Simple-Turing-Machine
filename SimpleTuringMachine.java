@@ -20,7 +20,7 @@ public class SimpleTuringMachine {
             } else if (choice == 3) {
                 System.out.println("\u001B[37m" + "-------------------------------------------" + "\u001B[0m");
                 System.out.println("\u001B[35m" + "Explore the source code on GitHub:" + "\u001B[0m");
-                System.out.println("URL");
+                System.out.println("https://github.com/Bab-Shah/Simple-Turing-Machine/blob/main/SimpleTuringMachine.java");
             } else if (choice < 1 || choice > 4) {
                 System.out.println("\u001B[31mInvalid choice. Please try again.\u001B[0m");
                 continue;
